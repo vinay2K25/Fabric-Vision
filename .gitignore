@@ -1,0 +1,15 @@
+# Ignore deep-learning data-sets!
+train/
+test/
+valid/
+data.yaml
+
+# Ignore YOLO training runs and model-weights!
+runs/
+*.pt
+
+# Ignore Python caches and virtual-environments!
+__pycache__/
+*.pyc
+.env/
+venv/
