@@ -6,9 +6,9 @@ An AI powered web-application that detects and highlights textile defects using 
 
 * **Interactive Web-UI:** Built with Streamlit, allowing users to seamlessly upload fabric images and instantly visualize inspection results.
 * **Real-time Parameter Tuning:** Features interactive sidebars to adjust confidence thresholds and anomaly sensitivities on the fly.
-* **Dual-Engine Back-end:**
-	* **Version One (Classical CV):** Utilizes OpenCV and NumPy to perform Statistical Frequency Anomaly Detection. It flattens images to find rare RGB-triplets (like stains or discolored threads) and masks them.
-	* **Version Two (Deep Learning):** Utilizes a custom-trained YOLOv8 object detection model (via PyTorch/Ultralytics) to identify complex structural anomalies like physical tears, holes and thread pulls.
+* **Detection Pipeline Evolution:**
+	* **Initial Prototype:** Implemented classical computer vision techniques with OpenCV and NumPy to experiment with statistical color anomaly detection on textile surfaces.
+	* **Current System:** Utilizes a custom-trained YOLOv8 object detection model (via PyTorch/Ultralytics) to perform real-time fabric defect detection and localization through bounding-box interference.
 
 ## Tech-Stack
 
