@@ -3,10 +3,12 @@ train/
 test/
 valid/
 data.yaml
+*.zip
 
 # Ignore YOLO training runs and model-weights!
 runs/
-*.pt
+yolov8n.pt
+yolov8s.pt
 
 # Ignore Python caches and virtual-environments!
 __pycache__/
